@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+body{
+  background: black;
+}
+
+
+
+.column {
+  float: left;
+  padding: 10px;
+  
+  
+}
+
+.left, .right {
+  width: 25%;
+  
+}
+
+.middle {
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home-main-container {
+  
+}
+
+.HeadLine{
+  color: white;
+  justify-content: center;
+}
+.Heading-1{
+  font-size: 1200%;
+  color: RED;
+  font-family: 'Dhurjati', sans-serif;
+  font-weight: bolder;
+  margin-top: 2rem;
+  letter-spacing: 1rem;
+  
+}
+.Heading-2{
+  font-size: 1200%;
+  color: white;
+  font-family: 'Dhurjati', sans-serif;  
+  font-weight: bolder;
+  margin-top: 2rem;
+  letter-spacing: 1rem; 
+}
+
+.SubHeading-1{
+  font-size: 300%;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;  font-weight: bolder;
+  margin-top: 2rem;
+  letter-spacing: 0.4rem;
+  
+}
+.SubHeading-2{
+  font-size: 300%;
+  color: red;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;  font-weight: bolder;
+  margin-top: 2rem;
+  letter-spacing: 0.4rem;
+  
+}
+
+.SubHeading2-1{
+  font-size: 300%;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;  height: 5rem;
+  font-weight: bolder;
+  margin-top: 0rem;
+  letter-spacing: 0.4rem;
+  
+}
+.SubHeading2-2{
+  font-size: 300%;
+  color: red;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;  height: 5rem;
+  font-weight: bolder;
+  margin-top: 0rem;
+  letter-spacing: 0.4rem;
+  
+}
+.draicMainImg{
+  height:80px;
+  width: 80px;
+  margin-top: 40px;
+
+}
+
+follow{
+ 
+}
+
+follow .container{
+  margin-top: 40px;
+}
+follow .fontawesome-style {
+  font-size: 2rem;
+  color: var(#6f5de7);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+follow .follow-heading{
+  margin-top: 5rem;
+  font-size: 195%;
+  color: #6f5de7;
+}
+
+follow .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+
+.container-img {
+  position: relative;
+  width: 50%;
+}
+
+.imgSetting {
+  display: block;
+  height:110px;
+  width: 110px;
+  margin-top: 40px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container-img:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 2rem;
+  font-family: 'Dhurjati', sans-serif;  
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.content-right{
+  text-align: right;
+}
+
+
+
+
+
+
+menuf{
+ 
+}
+
+menuf .container{
+  margin-top: 40px;
+}
+menuf .fontawesome-style {
+  font-size: 2rem;
+  color: var(#6f5de7);
+  background-color: transparent;
+  width: 0rem;
+  height: 0rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+menuf .menuf-heading{
+  font-size: 195%;
+  color: #6f5de7;
+}
+
+menuf .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+.content-left{
+    text-align: left;
+  }
+
+
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
